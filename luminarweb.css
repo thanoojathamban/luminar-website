@@ -1,0 +1,304 @@
+#img1{
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+
+}
+.nav1{
+    color: blue;
+    font-size: 25px;
+
+}
+.nav1:hover{
+    color: white;
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#logo:hover{
+transform: scale(1.05);
+cursor: pointer;
+
+}
+#body{
+    background-color: rgb(173, 233, 245);
+}
+.logo1:hover{
+    transform: scale(1.05);
+cursor: pointer;
+}
+h2{
+    color: purple;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+span{
+    color: purple;
+}
+p{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    margin: 30px;
+
+}
+button{
+    color: white;
+    background-color: purple;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#student{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+#homecont{
+    width: 55%;
+}
+#homeimg{
+    width: 40%;
+    text-align: right;
+}
+button:hover{
+    color: lightblue;
+    transform: scale(1,2);
+    cursor: pointer;
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid purple;
+    border-radius: 50%;
+}
+.card1:hover{
+    color: lightblue;
+    transform: scale(1,.5);
+    cursor: pointer;
+}
+#butn{
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: right;
+    cursor: pointer;
+}
+#sch{
+    margin-left: 60px;
+    border-radius: 3px;
+    margin-top: 80px;
+    padding: 10px;
+}
+#parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 30px;
+}
+.crs{
+    height: 500px;
+width: 400px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+}
+.images{
+    width: 300px;
+    height: 200px;
+    
+}
+#para{
+    color: blue;
+    font-size: 50px;
+    font-style: oblique;
+    margin-left: 50px;
+
+}
+span{
+    color: brown;
+    font-size: 80px;
+}
+#option{
+    color: blue;
+    font-size: 20px;
+    font-style: oblique;
+    margin-left: 50px;
+}
+.box1{
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    background-color: bisque;
+}
+.box2{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(187, 229, 229);
+    border: 2px solid purple;
+}
+#sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#msg{
+    color: brown;
+    font-style: italic;
+}
+#ceo{
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(41, 6, 74);
+}
+#ceo1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#ceoname{
+    color: black;
+    font-size: 20px;
+    font-style: inherit;
+}
+#lastp{
+    text-align: center;
+    color: red;
+    background-color: lightblue;
+    font-size: 30px;
+    font-style: oblique;
+}
+span{
+    color: blueviolet;
+}
+.ftr{
+    color: white;
+    background-color: rgb(57, 57, 235);
+    font-size: 20px;
+    text-align: left;
+}
+#image1{
+height: 200px;
+width: 400px;
+}
+#image2{
+    height: 200px;
+    width: 400px;
+}
+#image3{
+    height: 200px;
+    width: 400px;
+}
+#image4{
+    height: 200px;
+    width: 400px;
+}
+#placement{
+    text-align: center;
+    font-style: italic;
+    color: purple;
+}
+#para{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#placementbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+}
+.place-box{
+    color: purple;
+    background-color: rgb(244, 244, 175);
+    width: 100px;
+    height: 80px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.place-box:hover{
+    transform: scale(1.05);
+}
+#companies{
+    display: flex;
+    justify-content: space-around;
+}
+.comp{
+    width: 200px;
+    border: 2px solid purple;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.comp:hover{
+    transform: scale(1.05);
+}
+.banners:hover{
+transform: scale(1.05);
+}
+.cont{
+    margin-left: 30px;
+    margin: 10px;
+}
+.touch{
+    height: 600px;
+    width: 400px;
+    border: 2px solid white;
+    padding: 20px;
+
+}
+.form{
+    padding: 30px;
+    font-size: 20px;
+    font-style: oblique;
+    color: black;
+    margin: 20px;
+    height: 500px;
+    width: 350px;
+    border: 2px solid white;
+}
+#sec1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#msg{
+    font-size: 15px;
+    color: purple;
+}
