@@ -10,6 +10,13 @@ nav{
     
 
 }
+#body:hover{
+    box-shadow: 2px 5px 10px purple;
+
+}
+#student:hover{
+    box-shadow: 2px 5px 10px blue;
+}
 .nav1{
     color: blue;
     font-size: 25px;
@@ -27,7 +34,10 @@ cursor: pointer;
 
 }
 #body{
-    background-color: rgb(173, 233, 245);
+    background-color: rgb(166, 210, 219);
+}
+#img1:hover{
+    box-shadow: 5px 5px 10px purple;
 }
 .logo1:hover{
     transform: scale(1.05);
@@ -133,8 +143,11 @@ button:hover{
     height: 500px;
 width: 400px;
     border: 3px solid purple;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px;
+}
+.crs:hover{
+    box-shadow: 2px 5px 10px purple;
 }
 .images{
     width: 300px;
@@ -268,6 +281,7 @@ width: 400px;
 }
 .comp:hover{
     transform: scale(1.05);
+    box-shadow: 2px 5px 10px purple;
 }
 .banners:hover{
 transform: scale(1.05);
@@ -281,7 +295,11 @@ transform: scale(1.05);
     width: 400px;
     border: 2px solid white;
     padding: 20px;
+    border-radius: 15px;
 
+}
+.touch:hover{
+    box-shadow: 3px 5px 10px purple;
 }
 .form{
     padding: 30px;
@@ -292,6 +310,10 @@ transform: scale(1.05);
     height: 500px;
     width: 350px;
     border: 2px solid white;
+    border-radius: 15px;
+}
+.form:hover{
+    box-shadow: 3px 5px 10px purple;
 }
 #sec1{
     display: flex;
